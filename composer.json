@@ -2,4 +2,6 @@
   "name": "wecan-it/wecan.tools",
   "description": "Helpers for PHP projects",
   "version": "1.0.0"
+  "minimum-stability": "stable",
+  "license": "proprietary",
 }
