@@ -3,23 +3,25 @@
   "description": "Helpers for PHP projects",
   "version": "1.0.3",
   "license": "proprietary",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
   "repositories":[
     {
       "type":"package",
       "package":{
         "name":"wecan-it/wecan.tools",
-        "version": "1.1.2",
+        "version": "dev",
         "source":{
           "type":"git",
           "url":"git@bitbucket.org:wecan-it/wecan.tools.git",
-          "reference":"master"
+          "reference":"dev"
         }
       }
     }
   ],
   "require": {
     "mnsami/composer-custom-directory-installer": "1.1.*",
-    "wecan-it/wecan.tools": "1.1.*"
+    "wecan-it/wecan.tools": "dev"
   },
   "extra":{
     "installer-paths":{
@@ -27,3 +29,4 @@
     }
   }
 }
+
