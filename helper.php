@@ -581,6 +581,11 @@ class Helper
         return $value;
     }
 
+    /**
+     * @param string $file
+     * @param $data
+     * @param int $fileAppend
+     */
     public static function toLog(string $file, $data, $fileAppend = 0) {
         if (is_array($data))
             $data = json_encode($data);
