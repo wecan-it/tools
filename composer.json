@@ -8,18 +8,18 @@
       "type":"package",
       "package":{
         "name":"wecan-it/wecan.tools",
-        "version": "stable",
+        "version": "master",
         "source":{
           "type":"git",
           "url":"git@bitbucket.org:wecan-it/wecan.tools.git",
-          "reference":"stable"
+          "reference":"master"
         }
       }
     }
   ],
   "require": {
     "mnsami/composer-custom-directory-installer": "1.1.*",
-    "wecan-it/wecan.tools": "stable"
+    "wecan-it/wecan.tools": "master"
   },
   "extra":{
     "installer-paths":{
