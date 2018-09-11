@@ -570,6 +570,11 @@ class Helper
         return $entityClass;
     }
 
+    /**
+     * @param $value
+     * @param $callback
+     * @return mixed
+     */
     public static function tap($value, $callback)
     {
         $callback($value);
