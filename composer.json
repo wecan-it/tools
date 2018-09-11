@@ -2,9 +2,7 @@
   "name": "wecan-it/wecan.base",
   "description": "Helpers for PHP projects",
   "version": "1.0.3",
-  "license": "proprietary",
-  "prefer-stable": true,
-  "minimum-stability": "dev",
+  "license": "MIT",
   "repositories":[
     {
       "type":"package",
