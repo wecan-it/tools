@@ -3,6 +3,8 @@
   "description": "Helpers for PHP projects",
   "version": "1.0.3",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "repositories":[
     {
       "type":"package",
