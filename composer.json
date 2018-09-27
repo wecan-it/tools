@@ -10,7 +10,7 @@
       "type":"package",
       "package":{
         "name":"wecan-it/wecan.tools",
-        "version": "1.1-dev",
+        "version": "1.0.0",
         "source":{
           "type":"git",
           "url":"git@bitbucket.org:wecan-it/wecan.tools.git",
